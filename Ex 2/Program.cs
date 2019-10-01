@@ -55,5 +55,11 @@ namespace Ex_2
                               $"\nCurrent Speed: {CurrentSpeed}" +
                               $"\nEngine Size: {EngineSize}");
         }
+
+        public void Accelerate()
+        {
+            CurrentSpeed += 10;
+            Console.WriteLine($"Current Speed is {CurrentSpeed}");
+        }
     }
 }
