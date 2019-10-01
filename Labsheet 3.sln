@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labsheet 3", "Labsheet 3\Labsheet 3.csproj", "{7122CFD2-07D1-4E05-BEFF-F8AB17542B38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex 1", "Labsheet 3\Ex 1.csproj", "{7122CFD2-07D1-4E05-BEFF-F8AB17542B38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8974AE54-AD53-497A-8DBB-4E5EF2DD00B1}"
+	ProjectSection(SolutionItems) = preProject
+		Car.cs = Car.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex 2", "Ex 2\Ex 2.csproj", "{24BBDDEC-B6D8-4D98-B353-03EC741A368A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{7122CFD2-07D1-4E05-BEFF-F8AB17542B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7122CFD2-07D1-4E05-BEFF-F8AB17542B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7122CFD2-07D1-4E05-BEFF-F8AB17542B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24BBDDEC-B6D8-4D98-B353-03EC741A368A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BBDDEC-B6D8-4D98-B353-03EC741A368A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BBDDEC-B6D8-4D98-B353-03EC741A368A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BBDDEC-B6D8-4D98-B353-03EC741A368A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
