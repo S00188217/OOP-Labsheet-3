@@ -35,7 +35,7 @@ namespace Ex_2
 
             public double EngineSize
         {
-            get { return EngineSize; }
+            get { return engineSize; }
             set { engineSize = value; }
         }
 
